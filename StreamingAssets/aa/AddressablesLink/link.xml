@@ -1,4 +1,9 @@
 <linker>
+  <assembly fullname="DejaFight.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DejaFight.View.CharacterArtSet" preserve="all" />
+    <type fullname="DejaFight.View.ArtCatalog/AnimRow" preserve="nothing" serialized="true" />
+    <type fullname="DejaFight.View.ArtCatalog/CharacterArt" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
@@ -20,5 +25,8 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
   </assembly>
 </linker>
