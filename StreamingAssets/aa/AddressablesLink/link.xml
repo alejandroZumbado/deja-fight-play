@@ -27,6 +27,5 @@
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
-    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
   </assembly>
 </linker>
